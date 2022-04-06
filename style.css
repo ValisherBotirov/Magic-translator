@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnReverce {
+  font-size: 18px;
+  height: 30px;
+  position: absolute;
+  top: 500px;
+}
+
+.button__group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 500px;
+  height: 40px;
+  display: inline-block;
+  font-size: 18px;
+  /* background-color: rgb(220, 250, 175); */
+}
+
+.textares__group {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.textarea {
+  width: 500px;
+  height: 250px;
+  padding: 20px 30px;
+  font-size: 20px;
+  /* background-color: rgb(215, 255, 215); */
+}
+
+/* buttonlarni kombinatsiya */
+.btnLotin__group--1 {
+  position: absolute;
+  top: 255px;
+}
+
+.btnLotin__group--2 {
+  position: absolute;
+  top: 255px;
+  right: 0px;
+}
+
+.btnClear {
+  padding: 4px 10px;
+}
+
+.btnCopy {
+  padding: 4px 10px;
+}
